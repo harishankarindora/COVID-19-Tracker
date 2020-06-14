@@ -19,7 +19,7 @@
 
 ## [Live Site]
 
-()
+(https://ovid-19tracker-app.netlify.app)
 
 ## Data Sources:
 
