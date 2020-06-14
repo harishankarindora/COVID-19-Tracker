@@ -1,0 +1,80 @@
+*{
+-webkit-tap-highlight-color: transparent;
+}
+
+.overlay{  
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.502);
+    z-index: 30;
+    opacity: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.shareContainer{  
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
+    overflow: hidden;
+}
+
+.headingBox{
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    color: #4b5055;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.closePopup{
+    cursor: pointer;
+}
+
+.mainBox{
+    padding: 0px 10px 10px;
+}
+
+.title{
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+    color: #4b5055;
+    font-weight: 500;
+}
+
+.shareLinks{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.shareItem{
+    cursor: pointer;
+}
+
+.shareButton{
+    height: 60px;
+    width: 75px;
+    display: block;
+    background: transparent;
+    color: #2b2d30;
+    font-size: 14px;
+    text-align: center; 
+}

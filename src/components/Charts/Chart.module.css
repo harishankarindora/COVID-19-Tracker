@@ -1,0 +1,21 @@
+.chartpanel{
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.chartpanel h3{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 500;
+    color: #202124;
+}
+
+.chartpanel h2{
+    font-size: 16px;
+    padding: 0px 10px 30px;
+    color: #202124;
+}

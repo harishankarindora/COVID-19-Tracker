@@ -1,0 +1,38 @@
+.headingBox{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    height: 460px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.headingText{
+    padding: 80px 10px 0px;
+}
+
+.headingText h3{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.6;
+}
+
+.headingImage{
+    padding: 20px 76px 0px 0px
+
+}
+
+@media(max-width:1080px){
+
+    .headingBox{
+        flex-direction: column;
+        width: 94%;
+        height: 400px;
+    }
+
+    .headingText h3{
+        font-size: 30px;
+        text-align: center;
+    }
+}

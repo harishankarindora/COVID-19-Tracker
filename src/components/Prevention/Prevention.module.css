@@ -1,0 +1,39 @@
+.preventionTipsContainer{
+    max-width: 100%;
+    margin: 0px auto 0px;
+}
+
+.box{
+    margin: 50px 0px 50px;
+}
+
+.heading{
+    padding: 4px 10px 4px;
+    color: #202124;
+    border-left: 6px solid orangered;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content{
+    padding: 10px;
+    color: #4b5055;
+}
+
+.preventionTips h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 6px;
+    color: #202124;
+    font-weight: 600;
+}
+
+.symptoms p{
+    margin-top: 20px;
+}
+
+.symptoms ul{
+    padding-left: 20px;
+    padding-top: 6px;
+}

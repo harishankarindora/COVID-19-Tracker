@@ -1,0 +1,47 @@
+.summaryHeader{
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+}
+
+.headingBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.heading{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lastUpdate{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4b5055;
+}
+.sharePanel{
+    padding-right: 10px;
+    cursor: pointer; 
+    border: none;
+    background: transparent;   
+}
+
+.sourceBox{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sourceBox > a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4b5055;
+}
+
+.sourceBox > a:hover{
+    text-decoration: underline;
+}

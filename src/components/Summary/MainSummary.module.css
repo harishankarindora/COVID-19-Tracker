@@ -1,0 +1,38 @@
+.mainSummaryBox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px auto 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 30px;
+    align-items: center ;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 500;
+    color: #4b5055;
+}
+
+.data{
+    font-size: 70px;
+    font-weight: 600;
+    padding: 4px 0px 4px;
+}
+
+.delta{
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0px 6px 0px;
+}
+
+@media (max-width:1024px){
+    .mainSummaryBox{
+        width: 98%;
+    }
+}

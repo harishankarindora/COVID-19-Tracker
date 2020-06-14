@@ -1,0 +1,18 @@
+.loading{
+    width: auto;
+    height: 90vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    max-width: 74%;
+    margin: 0px auto 0px;
+}
+
+@media(max-width: 1024px){
+    .content-container {
+        max-width: 94%;
+    }
+}
