@@ -14,8 +14,7 @@ export const FetchGlobalData = async () => {
 
 export const FetchHistoricalData = async () => {
   try {
-    const historical = await axios.get("https://covid19.mathdro.id/api/daily");
-
+    const historical = await axios.get("https://corona.lmao.ninja/v2/historical/all?lastdays=1095");
     return { historical };
   }
   catch (error) {

@@ -19,20 +19,14 @@
 
 ## [Live Site]
 
-(https://covid-19tracker-app.netlify.app)
+(https://covid19tracker-2020.netlify.app/)
 
 ## Data Sources:
 
 https://corona.lmao.ninja/v2
-
-https://covid19.mathdro.id/api
 
 https://api.coronatracker.com/
 
 ## Setup:
 
 - run ```npm i && npm start```
-
-## Maintainers
-
-- [Hari indora](https://github.com/hariindora)
